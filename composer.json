@@ -1,0 +1,21 @@
+{
+  "name": "payopm/invoicing-api-client-php",
+  "description": "PAYOPM invoicing API client for PHP",
+  "type": "library",
+  "keywords": ["payopm", "invoicing"],
+  "homepage": "https://www.payopm.com",
+  "authors": [{
+    "name": "PAYOPM Developer Team",
+    "email": "dev@payopm.com",
+    "role": "Developer"
+  }],
+  "autoload": {
+    "psr-4": {
+      "Payopm\\": "src/"
+    }
+  },
+  "require": {
+    "PHP": ">= 5.3",
+    "ext-curl": "*"
+  }
+}
